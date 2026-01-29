@@ -125,7 +125,7 @@ useLayoutEffect(() => {
                 // HEADPhone scroll animation HIDDEN
                 tl.to(phone.current, {
                     y: '180vh',
-                  smooth: true,
+                 
                     immediateRender: false,
                     scrollTrigger: {
                         trigger: ".box1",
