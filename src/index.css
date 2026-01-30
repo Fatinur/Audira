@@ -5,7 +5,7 @@
 
 @theme{
    --font-outfit: 'Outfit', sans-serif;
-   --font-monsterrat: 'DM Sans', sans-serif;
+   --font-dm-sans: 'DM Sans', sans-serif;
    --color-prim:#734425;
    --color-sec: #C26819;
 }
@@ -24,6 +24,7 @@ body{
     
    background-color: #F5ECE4;
     font-weight: 500;
+    font-family: var(--font-dm-sans);
 
    
 
