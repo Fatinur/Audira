@@ -442,9 +442,9 @@ useLayoutEffect(() => {
 
                         //headphone move for third section
                               gsap.to(phone.current, {
-                                y: '195vh',
-                                x: '-28vw',
-                                scale: 0.8,
+                                y: '210vh',
+                                x: '-10vw',
+                                scale: 0.7,
                                 rotate: -25,
                                 ease: 'power1.inOut',
                                 immediateRender: false,
@@ -461,7 +461,7 @@ useLayoutEffect(() => {
                           gsap.to(phone.current, {
                             y: '290vh',
                             left: '50%',
-                            x: 0,          // 👈 REQUIRED
+                            x: 0,        
                             xPercent: -50, // 👈 Tailwind -translate-x-1/2
                             scale: 0.7,
                             rotate: 45,
@@ -496,7 +496,9 @@ useLayoutEffect(() => {
                     //headphome move for fifth section
                               gsap.to(phone.current, {
                                 y: '370vh',
-                               
+                                left: '50%',
+                                x: 0,        
+                                xPercent: -50,
                                 scale: 0.8,
                                 rotate: 0,
                                 ease: 'power1.inOut',
