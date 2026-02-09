@@ -472,7 +472,7 @@ useLayoutEffect(() => {
                                 start: "top bottom",
                                 end: "center 60%",
                                 scrub: true,
-                                markers: true
+                               // markers: true
                             }
                             });
 
@@ -495,8 +495,8 @@ useLayoutEffect(() => {
 
                     //headphome move for fifth section
                               gsap.to(phone.current, {
-                                y: '360vh',
-                                x: '-17vw',
+                                y: '370vh',
+                               
                                 scale: 0.8,
                                 rotate: 0,
                                 ease: 'power1.inOut',
