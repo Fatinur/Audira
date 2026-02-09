@@ -584,8 +584,8 @@ useLayoutEffect(() => {
                                 <div className=" text-prim font-bold text-6xl md:text-[5vw]  leading-none ml-3.5 w-[30vw] " ref={trueClarity} >
                                     TRUE CLARITY
                                 </div>
-                                <div className="flex flex-col gap-3.5">
-                                <div className='md:w-[40vw] w-[70vw] text-sm font-dm-sans text-prim' ref={paragraph}>
+                                <div className="flex flex-col gap-[5vh]">
+                                <div className='md:w-[40vw] w-[70vw] text-[18px] font-dm-sans text-prim' ref={paragraph}>
                                     Engineered for clarity, comfort, and immersive sound — Audira
                                          redefines your listening experience with style and performance
                                          in perfect harmony.
@@ -597,10 +597,10 @@ useLayoutEffect(() => {
                                 <div className="boxes flex md:flex-row flex-col gap-5 mt-10" ref={boxes}>
                                     <div className="box box1">
                                             <div className='flex flex-col text-center md:gap-2 gap-4.5'>
-                                                <div className='font-outfit md:text-[12px] text-3xl'>
+                                                <div className='font-outfit md:text-[18px] text-3xl'>
                                                      Crystal-Clear Audio
                                                 </div>
-                                                <div className='font-dm-sans md:text-[10px]'>
+                                                <div className='font-dm-sans md:text-[15px]'>
                                                   Hear every detail with balance bass and studio-quality mids
                                                   and highs.
                                                 </div>
@@ -608,20 +608,20 @@ useLayoutEffect(() => {
                                     </div>
                                     <div className="box box2">
                                             <div className='flex flex-col text-center md:gap-2 gap-4.5'>
-                                                <div className='font-outfit md:text-[12px] text-3xl'>
+                                                <div className='font-outfit md:text-[18px] text-3xl'>
                                                      All-Day Comfort
                                                 </div>
-                                                <div className='font-dm-sans md:text-[10px]'>
+                                                <div className='font-dm-sans md:text-[15px]'>
                                                    Lightweight build with plush ear cushions and ergonomic fit.
                                                 </div>
                                             </div>
                                     </div>
                                     <div className="box box3">
                                             <div className='flex flex-col text-center md:gap-2 gap-4.5'>
-                                                <div className='font-outfit md:text-[12px] text-3xl'>
+                                                <div className='font-outfit md:text-[18px] text-3xl'>
                                                      40+ Hour Battery Life
                                                 </div>
-                                                <div className='font-dm-sans md:text-[10px]'>
+                                                <div className='font-dm-sans md:text-[15px]'>
                                                    Long-lasting performance, wherever you go.
                                                 </div>
                                             </div>
