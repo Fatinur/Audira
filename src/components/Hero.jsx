@@ -458,10 +458,11 @@ useLayoutEffect(() => {
                                 }
                             });
                         //headphone move for fourth section
-                            gsap.to(phone.current, {
+                          gsap.to(phone.current, {
                             y: '290vh',
                             left: '50%',
-                            xPercent: -50,   // -translate-x-1/2
+                            x: 0,          // 👈 REQUIRED
+                            xPercent: -50, // 👈 Tailwind -translate-x-1/2
                             scale: 0.7,
                             rotate: 45,
                             ease: 'power1.inOut',
@@ -471,9 +472,10 @@ useLayoutEffect(() => {
                                 start: "top bottom",
                                 end: "center 60%",
                                 scrub: true,
-                                // markers: true
+                                markers: true
                             }
                             });
+
                             // images section4 grow in
                 gsap.fromTo('.images-section4',
                     { scale: 0.6, autoAlpha: 0 },
