@@ -495,7 +495,7 @@ useLayoutEffect(() => {
 
                     //headphome move for fifth section
                               gsap.to(phone.current, {
-                                y: '370vh',
+                                y: '380vh',
                                 left: '50%',
                                 x: 0,        
                                 xPercent: -50,
@@ -511,7 +511,7 @@ useLayoutEffect(() => {
                                    // markers: true
                                 }});
                               gsap.to(phone.current, {
-                                y: '400vh',
+                                y: '410vh',
                                 left: '50%',
                                 x: 0,        
                                 xPercent: -50,
