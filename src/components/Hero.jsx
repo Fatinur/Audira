@@ -458,23 +458,22 @@ useLayoutEffect(() => {
                                 }
                             });
                         //headphone move for fourth section
-                              gsap.to(phone.current, {
-                                y: '290vh',
-                                x: '-20vw',
-                                scale: 0.7,
-                                rotate: 45,
-                                ease: 'power1.inOut',
-                                immediateRender: false,
-                                scrollTrigger: {
-                                    trigger: ".fourth-section",
-                                    start: "top bottom",
-                                    end: "center 60%",
-                                    scrub: true,
-                                   // markers: true
-                                    
-                                }
+                            gsap.to(phone.current, {
+                            y: '290vh',
+                            left: '50%',
+                            xPercent: -50,   // -translate-x-1/2
+                            scale: 0.7,
+                            rotate: 45,
+                            ease: 'power1.inOut',
+                            immediateRender: false,
+                            scrollTrigger: {
+                                trigger: ".fourth-section",
+                                start: "top bottom",
+                                end: "center 60%",
+                                scrub: true,
+                                // markers: true
+                            }
                             });
-
                             // images section4 grow in
                 gsap.fromTo('.images-section4',
                     { scale: 0.6, autoAlpha: 0 },
@@ -647,7 +646,7 @@ useLayoutEffect(() => {
 
                                      </div>
 
-                                     <div className="paragraph-section3   self-end md:w-[40vw] transform md:-translate-y-[25vh] text-prim font-outfit md:text-[12px] text-[15px]  ">
+                                     <div className="paragraph-section3   self-end md:w-[40vw] transform md:-translate-y-[25vh] text-prim font-outfit md:text-[20px] text-[15px]  ">
                                                                 <p>
                                             Crafted for the modern audiophile, Audira headphones deliver
                                             sound so rich, it pulses through your senses. From crisp highs
