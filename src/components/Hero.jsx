@@ -512,7 +512,9 @@ useLayoutEffect(() => {
                                 }});
                               gsap.to(phone.current, {
                                 y: '400vh',
-                                x: '-17vw',
+                                left: '50%',
+                                x: 0,        
+                                xPercent: -50,
                                 scale: 0.5,
                                 rotate: 0,
                                 ease: 'power1.inOut',
