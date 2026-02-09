@@ -292,9 +292,13 @@ useLayoutEffect(() => {
                     "-=0.5"
                 );
 
-                gsap.to(phone.current, {
+                gsap.fromTo(phone.current,{
+                        y: 0,
+                        rotate:12,
+                        scale: 1,
+                }, {
                     y: '85vh',
-                    x: '16vw',
+                    x: '25vw',
                     scale: 0.8,
                     rotate: 90,
                     ease: 'power1.inOut',
@@ -551,7 +555,7 @@ useLayoutEffect(() => {
 
 
     return (  <div>
-        <div ref={scope} className="relative overflow-hidden ">
+        <div ref={scope} className="relative overflow-x-hidden">
             <div id="smooth-wrapper">
                 <div className='w-full' id="smooth-content">
                     <div className='image-here relative'>
@@ -576,7 +580,7 @@ useLayoutEffect(() => {
                      <div className="second-screen md:h-screen    flex   justify-center ">
                         <div className='  w-[90vw]  '>
                                 <div className="cont-section  ">
-                                    <div className='h-[50vh] md:h-auto flex flex-col md:block justify-center  '>
+                                    <div className='h-[50vh] md:h-[55vh] flex flex-col md:block justify-center  '>
                                 <div className=" text-prim font-bold text-6xl md:text-[5vw]  leading-none ml-3.5 w-[30vw] " ref={trueClarity} >
                                     TRUE CLARITY
                                 </div>
