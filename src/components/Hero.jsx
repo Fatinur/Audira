@@ -760,16 +760,16 @@ useLayoutEffect(() => {
 
                     {/* Text */}
                     <div className="flex flex-col last-text md:w-full w-[80%]">
-                        <div className="text-prim font-bold font-outfit text-[18px] md:text-[35px] ">
+                        <div className="text-prim font-bold font-outfit text-[18px] md:text-[65px] ">
                         PURE ESCAPE
                         </div>
                         <div className="text-prim font-dm-sans  flex flex-col gap-2 ">
-                        <div className='text-[14px] md:text-[12px]'>
+                        <div className='text-[14px] md:text-[30px]'>
                             Step into a world where every note feels alive. Audira
                             headphones are engineered to create a sound experience that
                             surrounds you deep, rich, and breathtaking.
                         </div> 
-                        <div className='text-[14px] md:text-[12px]'>
+                        <div className='text-[14px] md:text-[30px]'>
                             
                             Whether you're working, relaxing, or moving, our design blends
                             comfort and clarity for every lifestyle. You don’t just listen 
