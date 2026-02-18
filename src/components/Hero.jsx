@@ -153,8 +153,11 @@ useLayoutEffect(() => {
                 }); 
                 // HEADPhone scroll animation 3
                 tl.to(phone.current, {
+
                     y: '320vh',
-                    x: '15vw',
+                   left: '50%',
+                                x: 0,        
+                                xPercent: -50,
                     rotate: 390,
                     scale: 1.2,
                     ease: 'power1.inOut',
@@ -172,8 +175,11 @@ useLayoutEffect(() => {
                 //HEADPHONE scroll animation 4
                 tl.to(phone.current, {
                     y: '420vh',
-                    x: '-8vw',
-                    rotate: 20,
+                   
+                     left: '50%',
+                                x: 0,        
+                                xPercent: -50,
+                    rotate: 0,
                     scale: 1.2,
                     
 
@@ -500,6 +506,7 @@ useLayoutEffect(() => {
                                 x: 0,        
                                 xPercent: -50,
                                 scale: 0.8,
+                                
                                 rotate: 0,
                                 ease: 'power1.inOut',
                                 immediateRender: false,
@@ -515,7 +522,8 @@ useLayoutEffect(() => {
                                 left: '50%',
                                 x: 0,        
                                 xPercent: -50,
-                                scale: 0.5,
+                                scaleX: 0.5,
+                                scaleY: 0.555,
                                 rotate: 0,
                                 ease: 'power1.inOut',
                                 immediateRender: false,
@@ -754,7 +762,7 @@ useLayoutEffect(() => {
                         <img 
                         src="/img4.jpg" 
                         alt="Image 4" 
-                        className="w-[80%] h-auto object-contain"
+                        className="w-[80%] h-auto object-contain rounded-lg"
                         />
                     </div>
 
